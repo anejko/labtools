@@ -13,7 +13,7 @@ commands for a more custom control.
 """
 
 import time
-import visa
+import pyvisa as visa
 from labtools.agilent.conf import TIMEOUT,  LOGLEVEL, DEVICES, INITCMD
 from labtools.log import create_logger
 
